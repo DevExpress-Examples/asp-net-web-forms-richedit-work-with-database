@@ -1,3 +1,9 @@
+<!-- default file list -->
+*Files to look at*:
+
+* [Default.aspx](./CS/ASPxRichEdit_Binding/Default.aspx) (VB: [Default.aspx](./VB/ASPxRichEdit_Binding/Default.aspx))
+* [Default.aspx.cs](./CS/ASPxRichEdit_Binding/Default.aspx.cs) (VB: [Default.aspx](./VB/ASPxRichEdit_Binding/Default.aspx))
+<!-- default file list end -->
 # ASPxRichEdit - How to save and load documents from a database
 
 
