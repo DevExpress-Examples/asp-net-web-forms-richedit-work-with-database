@@ -3,18 +3,26 @@
 [![](https://img.shields.io/badge/Open_in_DevExpress_Support_Center-FF7200?style=flat-square&logo=DevExpress&logoColor=white)](https://supportcenter.devexpress.com/ticket/details/T352034)
 [![](https://img.shields.io/badge/📖_How_to_use_DevExpress_Examples-e9f6fc?style=flat-square)](https://docs.devexpress.com/GeneralInformation/403183)
 <!-- default badges end -->
-<!-- default file list -->
-*Files to look at*:
+# Rich Text Editor for ASP.NET Web Forms - How to save/load documents to/from a database
+
+This example demonstrates how to configure the [Rich Text Editor](https://docs.devexpress.com/AspNet/17721/components/rich-text-editor) control to work with a database.
+
+![Connect Rich Text Editor to Database](work-with-database.gif)
+
+Load a document from a database as a byte array and pass it to the control's [Open(String, DocumentFormat, Func<Byte[]>)](https://docs.devexpress.com/AspNet/DevExpress.Web.ASPxRichEdit.ASPxRichEdit.Open(System.String-DevExpress.XtraRichEdit.DocumentFormat-System.Func-System.Byte---)) method overload to open the document in the Rich Text Editor. The [Open(String, DocumentFormat, Func<Stream>)](https://docs.devexpress.com/AspNet/DevExpress.Web.ASPxRichEdit.ASPxRichEdit.Open(System.String-DevExpress.XtraRichEdit.DocumentFormat-System.Func-System.IO.Stream-)) method overload allows you to open a document loaded from the database as a stream.
+
+The [Saving](https://docs.devexpress.com/AspNet/DevExpress.Web.ASPxRichEdit.ASPxRichEdit.Saving) event occurs when you call the [Save](https://docs.devexpress.com/AspNet/DevExpress.Web.ASPxRichEdit.ASPxRichEdit.Save) method or a user clicks the built-in **Save** or **SaveAs** command in the Ribbon UI. To save changes, handle the `Saving` event and update the data source.
+
+## Files to Review
 
 * [Default.aspx](./CS/ASPxRichEdit_Binding/Default.aspx) (VB: [Default.aspx](./VB/ASPxRichEdit_Binding/Default.aspx))
 * [Default.aspx.cs](./CS/ASPxRichEdit_Binding/Default.aspx.cs) (VB: [Default.aspx.vb](./VB/ASPxRichEdit_Binding/Default.aspx.vb))
-<!-- default file list end -->
-# ASPxRichEdit - How to save and load documents from a database
 
+## Documentation
 
-<p>This code example demonstrates how to save and restore ASPxRichEdit documents from a database using a Binary column.<br>Use the <a href="https://documentation.devexpress.com/#AspNet/DevExpressWebASPxRichEditASPxRichEdit_Opentopic">ASPxRichEdit.Open</a> method to load a document and call the <a href="https://documentation.devexpress.com/#AspNet/DevExpressWebASPxRichEditASPxRichEdit_SaveCopytopic">ASPxRichEdit.SaveCopy</a> method to save changes.</p>
-<p>It is also possible to handle the <a href="https://documentation.devexpress.com/#AspNet/DevExpressWebASPxRichEditASPxRichEdit_Savingtopic">ASPxRichEdit.Saving</a> event to save a document by clicking the ribbon's built-in Save button.<br><br><strong>See Also:</strong><br><strong>MVC Version:</strong><br><a href="https://www.devexpress.com/Support/Center/p/T352035">T352035: RichEdit - How to save and load documents from a database</a></p>
+* [RichEdit Document Management](https://docs.devexpress.com/AspNet/401562/components/rich-text-editor/document-management)
+* [Querying Data with the SqlDataSource Control](https://learn.microsoft.com/en-us/aspnet/web-forms/overview/data-access/accessing-the-database-directly-from-an-aspnet-page/querying-data-with-the-sqldatasource-control-cs)
 
-<br/>
+## More Examples
 
-
+* [Rich Text Editor for ASP.NET MVC - How to save/load documents from/to a database](https://github.com/DevExpress-Examples/mvc-richedit-save-and-load-documents-from-a-database)
