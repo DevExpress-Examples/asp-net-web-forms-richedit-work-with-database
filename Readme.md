@@ -28,7 +28,7 @@ The [Saving](https://docs.devexpress.com/AspNet/DevExpress.Web.ASPxRichEdit.ASPx
 
 * [Rich Text Editor for ASP.NET MVC - How to save/load documents from/to a database](https://github.com/DevExpress-Examples/mvc-richedit-save-and-load-documents-from-a-database)
 <!-- feedback -->
-## Does this example address your development requirements/objectives?
+## Does This Example Address Your Development Requirements/Objectives?
 
 [<img src="https://www.devexpress.com/support/examples/i/yes-button.svg"/>](https://www.devexpress.com/support/examples/survey.xml?utm_source=github&utm_campaign=asp-net-web-forms-richedit-work-with-database&~~~was_helpful=yes) [<img src="https://www.devexpress.com/support/examples/i/no-button.svg"/>](https://www.devexpress.com/support/examples/survey.xml?utm_source=github&utm_campaign=asp-net-web-forms-richedit-work-with-database&~~~was_helpful=no)
 
